@@ -1,63 +1,12 @@
-git clone -b 4forks https://github.com/reaitten/tgtlg
-  cd TorrentLeech-Gdrive
-  python3 -m venv venv
-  . ./venv/bin/activate
-  pip install -r requirements.txt
-  # Create config.py appropriately
   python3 -m tgtlg
-
-  ### Mandatory Variables
-
+ 
   - `TG_BOT_TOKEN`: 1948841770:AAGX5_t7-q0uodiq_U3XwI2qV7d80LFDASA
   - `APP_ID` 3495663
   - `API_HASH`: bd2c2a8c9fa3169038cdf3c9c8215f19
   - `AUTH_CHANNEL`: -1001585071628
   - `OWNER_ID`: 1874954413
-
- ### Optional Configuration Variables
-
-<details>
-      <summary><b>Click Here for more Details</b></summary>
-
-
-  - `DOWNLOAD_LOCATION`: 
-  The location you would like the bot to download to locally.
-
-  - `BOT_CMD_POSTFIX`:   
-  If you want the bot to respond to you when you send a command along with the bot username. 
-  Usage Example: /command@botusername
-  Example Value: @mybotsusername
-  Defualt Value is "".
-  
-  - `LEECH_COMMAND`:
-  Change the /leech command.
-  Defualt Value is "leech"
-  - `LEECH_UNZIP_COMMAND`:
-   Change the /extract command.
-  Defualt Value is "extract"
-  - `LEECH_ZIP_COMMAND`:
-  Change the /archive command.
-  Defualt Value is "archive" 
-  - `YTDL_COMMAND`:
-  Change the /ytdl command.
-  Defualt Value is "ytdl"
-  - `GYTDL_COMMAND`:
-  Change the /gytdl command.
-  Defualt Value is "gytdl"
-  - `PYTDL_COMMAND`:
-  Change the /pytdl command.
-  Defualt Value is "pytdl"
-  - `GLEECH_COMMAND`:
-  Change the /gleech command.
-  Defualt Value is "gleech"
-  - `TELEGRAM_LEECH_COMMAND`:
-  Change the /tleech command.
-  Defualt Value is "tleech"
-  - `TELEGRAM_LEECH_UNZIP_COMMAND`:
-  Change the /textract command.
-  Defualt Value is "textract"
   - `CLONE_COMMAND_G`:
-  Change the /gclone command.
+/gclone 
   Defualt Value is "gclone"
   - `UPLOAD_COMMAND`:
   Change the /upload command.
@@ -86,6 +35,40 @@ git clone -b 4forks https://github.com/reaitten/tgtlg
   - `CANCEL_COMMAND_G`:
   Change the /cancel command.
   Defualt Value is "cancel"
+  .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Chan.
+  
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   - `MAX_FILE_SIZE`:
   - `TG_MAX_FILE_SIZE`:
