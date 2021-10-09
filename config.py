@@ -13,7 +13,7 @@ python3 -m tgtlg
   - `GET_SIZE_G`: /clearthumb@Leech96bot
   - `TOGGLE_VID`: /togglevid@Leech96bot
   - `TOGGLE_DOC`: /toggledoc@Leech96bot
-  - `RENAME_COMMAND`: /rename@Leech96bot
+  - `RENAME_COMMAND`: 
   - `CANCEL_COMMAND_G`: /cancel@Leech96bot
   - `MAX_FILE_SIZE`:
   - `TG_MAX_FILE_SIZE`:
