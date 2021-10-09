@@ -1,74 +1,20 @@
-  python3 -m tgtlg
+python3 -m tgtlg
  
   - `TG_BOT_TOKEN`: 1948841770:AAGX5_t7-q0uodiq_U3XwI2qV7d80LFDASA
   - `APP_ID` 3495663
   - `API_HASH`: bd2c2a8c9fa3169038cdf3c9c8215f19
   - `AUTH_CHANNEL`: -1001585071628
   - `OWNER_ID`: 1874954413
-  - `CLONE_COMMAND_G`:
-/gclone 
-  Defualt Value is "gclone"
-  - `UPLOAD_COMMAND`:
-  Change the /upload command.
-  Defualt Value is "upload"
-  - `RENEWME_COMMAND`:
-  Change the /leech command.
-  Defualt Value is "leech"
-  - `SAVE_THUMBNAIL`:
-  Change the /savethumb command.
-  Defualt Value is "savethumb"
-  - `CLEAR_THUMBNAIL`:
-  Change the /clearthumb command.
-  Defualt Value is "clearthumb"
-  - `GET_SIZE_G`:
-  Change the /clearthumb command.
-  Defualt Value is "clearthumb"
-  - `TOGGLE_VID`:
-  Change the /togglevid command.
-  Defualt Value is "togglevid"
-  - `TOGGLE_DOC`:
-  Change the /toggledoc command.
-  Defualt Value is "toggledoc"
-  - `RENAME_COMMAND`:
-  Change the /rename command.
-  Defualt Value is "rename"
-  - `CANCEL_COMMAND_G`:
-  Change the /cancel command.
-  Defualt Value is "cancel"
-  .
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  Chan.
-  
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  - `CLONE_COMMAND_G`: /gclone@Leech96bot
+  - `UPLOAD_COMMAND`: /upload@Leech96bot
+  - `RENEWME_COMMAND`: /leech@Leech96bot
+  - `SAVE_THUMBNAIL`: /savethumb@Leech96bot
+  - `CLEAR_THUMBNAIL`: /clearthumb@Leech96bot
+  - `GET_SIZE_G`: /clearthumb@Leech96bot
+  - `TOGGLE_VID`: /togglevid@Leech96bot
+  - `TOGGLE_DOC`: /toggledoc@Leech96bot
+  - `RENAME_COMMAND`: /rename@Leech96bot
+  - `CANCEL_COMMAND_G`: /cancel@Leech96bot
 
   - `MAX_FILE_SIZE`:
   - `TG_MAX_FILE_SIZE`:
@@ -92,7 +38,6 @@
   - `DESTINATION_FOLDER`: Name of your folder in your respective drive where you want to upload the files using the bot.
 
 </details>
-
 
   ### Available Commands
 
@@ -149,5 +94,4 @@ You can add a custom name as it's prefix to the file. Example: if gk.txt uploade
   - [Robots](https://telegram.dog/Robots) for their [@UploadBot](https://telegram.dog/UploadBot)
   - [@AjeeshNair](https://telegram.dog/AjeeshNait) for his [torrent.ajee.sh](https://torrent.ajee.sh)
   - [@gotstc](https://telegram.dog/gotstc), @aryanvikash, [@HasibulKabir](https://telegram.dog/HasibulKabir) for their TORRENT groups
-
 
