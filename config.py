@@ -15,7 +15,6 @@ python3 -m tgtlg
   - `TOGGLE_DOC`: /toggledoc@Leech96bot
   - `RENAME_COMMAND`: /rename@Leech96bot
   - `CANCEL_COMMAND_G`: /cancel@Leech96bot
-
   - `MAX_FILE_SIZE`:
   - `TG_MAX_FILE_SIZE`:
   - `FREE_USER_MAX_FILE_SIZE`
