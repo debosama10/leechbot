@@ -1,5 +1,4 @@
-  python3 -m tgtlg
-  ```
+https://github.com/debosama10/leechbot#variable-explanations
 
   - `TG_BOT_TOKEN`: 1948841770:AAGX5_t7-q0uodiq_U3XwI2qV7d80LFDASA
   - `APP_ID` 3495663
