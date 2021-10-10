@@ -1,5 +1,4 @@
-https://github.com/debosama10/leechbot#variable-explanations
-https://github.com/debosama10/leechbot#mandatory-variables
+rclone config --config="rclone.conf".
 
   - `TG_BOT_TOKEN`: 1948841770:AAGX5_t7-q0uodiq_U3XwI2qV7d80LFDASA
   - `APP_ID` 3495663
