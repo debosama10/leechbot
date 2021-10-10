@@ -1,10 +1,128 @@
- # Telegram Torrent Leecher
+   #
+{
+  "name": "Telegram Torrent Leecher",
+  "description": "A Telegram Torrent (and youtube-dl) Leecher based on Pyrogram. Powered by @torrentleechgdrivesupport!",
+  "keywords": [
+    "telegram"
+  ],
+  "repository": "https://github.com/debosama10/leechbot",
+  "success_url": "https://t.me/orsixtyone",
+  "website": "https://github.com/debosama10/leechbot",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": "get this value from @BotFather",
+      "value": ""
+    },
+    "AUTH_CHANNEL": {
+      "description": "should be an integer. The BOT API ID of the Telegram Group, where the Leecher should work.",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "should be an integer. ID of owner of bot",
+      "value": ""
+    },
+    "UPLOAD_AS_DOC": {
+      "description": "True/False. If true all files will be uploaded as documents. Default is False.",
+      "required": false
+    },
+    "CHUNK_SIZE": {
+      "description": "should be an integer",
+      "value": "128",
+      "required": false
+    },
+    "ARIA_TWO_STARTED_PORT": {
+      "description": "should be an integer. The port on which aria2c daemon must start, and keep listening.",
+      "value": "6800",
+      "required": false
+    },
+    "EDIT_SLEEP_TIME_OUT": {
+      "description": "should be an integer. Number of seconds to wait before editing a message.",
+      "value": "15",
+      "required": false
+    },
+    "MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START": {
+      "description": "should be an integer. Number of seconds to wait before cancelling a torrent.",
+      "required": false
+    },
+    "FINISHED_PROGRESS_STR": {
+      "description": "should be a single character.",
+      "value": "█",
+      "required": false
+    },
+    "UN_FINISHED_PROGRESS_STR": {
+      "description": "should be a single character.",
+      "value": "░",
+      "required": false
+    },
+    "TG_OFFENSIVE_API": {
+      "description": "should be an URL accepting the FormParams {i}, {m}, and {t}",
+      "required": false
+    },
+    "LEECH_COMMAND": {
+      "description": "Enter your custom leech command like /leech@urgroupname and so on. Default is /leech",
+      "required": false
+    },
+    "INDEX_LINK": {
+      "description": "Enter your index link:",
+      "required": false
+    },
+    "GLEECH_COMMAND": {
+      "description": "Enter your custom gleech command like /gleech1@urgroupname and so on. Default is /gleech",
+      "required": false
+    },
+    "TELEGRAM_LEECH_COMMAND_G": {
+      "description": "Enter your custom tleech command like /tleech1@urgroupname and so on. Default is /tleech",
+      "required": false
+    },
+    "YTDL_COMMAND": {
+      "description": "Enter your custom ytdl command like ytdl1@urgroupname and so on. Default is /ytdl.",
+      "required": false
+    },
+    "PYTDL_COMMAND_G": {
+      "description": "Enter your custom pytdl command like pytdl1@urgroupname and so on. Default is /pytdl.",
+      "required": false
+    },
+    "CANCEL_COMMAND_G": {
+      "description": "Enter your custom cancel command like cancel@urgroupname and so on. Default is /cancel.",
+      "required": false
+    },
+    "GET_SIZE_G": {
+      "description": "Enter your custom getsize command like getsize@urgroupname and so on. Default is /getsize.",
+      "required": false
+    },
+    "RCLONE_CONFIG": {
+      "description": "Enter your copied text from rclone config. Compulsory for /gleech as well as /tleech command ",
+      "required": false
+    },
+    "DESTINATION_FOLDER": {
+      "description": "Enter your rclone drive name (not ID) in which you want to upload/store your files.",
+      "required": false
+    },
+    "CUSTOM_FILE_NAME": {
+      "description": "fill with name you want to prefix the file name like your channel username, keep empty for do nothing, but add to your config vars even without input.",
+      "required": false
+    }
+  },
+  "stack": "container"
+} Telegram Torrent Leecher
   
   A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.com/pyrogram/pyrogram)
   ---
-<p><a href="https://hub.docker.com/r/reaitten/tgtlg"> <img src="https://img.shields.io/docker/pulls/reaitten/tgtlg?style=for-the-badge" width="150""/></a> <a href="https://hub.docker.com/layers/reaitten/tgtlg/latest/images/sha256-2f8b28fa0b7998fcc917589e211c40d4621ac0eb4181cb96a4d18bfcb74e368c?context=explore"> <img src="https://img.shields.io/docker/image-size/reaitten/tgtlg/latest?style=for-the-badge" width="150""/></a> <a href="https://github.com/reaitten/tgtlg"> <img src="https://img.shields.io/github/repo-size/reaitten/tgtlg?style=for-the-badge" width="150"/></a> <a href="https://github.com/reaitten/tgtlg/blob/main/LICENSE"> <img src="https://img.shields.io/github/license/reaitten/tgtlg?style=for-the-badge" width="150"/></a></p> 
+<p><a href="https://hub.docker.com/r/debosama10/leechbot"> <img src="https://img.shields.io/docker/pulls/debosama10/leechbot?style=for-the-badge" width="150""/></a> <a href="https://hub.docker.com/layers/debosama10/leechbot/latest/images/sha256-2f8b28fa0b7998fcc917589e211c40d4621ac0eb4181cb96a4d18bfcb74e368c?context=explore"> <img src="https://img.shields.io/docker/image-size/debosama10/leechbot/latest?style=for-the-badge" width="150""/></a> <a href="https://github.com/debosama10/lechbot"> <img src="https://img.shields.io/github/repo-size/debosama10/leechbot?style=for-the-badge" width="150"/></a> <a href="https://github.com/debosama10/leechbot/blob/main/LICENSE"> <img src="https://img.shields.io/github/license/debosama10/leechbot?style=for-the-badge" width="150"/></a></p> 
   
-  ![GitHub Repo stars](https://img.shields.io/github/stars/reaitten/tgtlg?style=social) ![GitHub forks](https://img.shields.io/github/forks/reaitten/tgtlg?style=social)
+  ![GitHub Repo stars](https://img.shields.io/github/stars/reaitten/tgtl?style=social) ![GitHub forks](https://img.shields.io/github/forks/debosama10/leechbot?style=social)
   ---
   # Table of Contents
   
@@ -54,16 +172,16 @@
 
   **Modified for use on Heroku, please do not heavily abuse!**
 
-  **Join [this](https://t.me/Leech96bot) Telegram Group if you want support, I will try to help you as much as I can.**
+  **Join [this](https://t.me/leech96bot) Telegram Group if you want support, I will try to help you as much as I can.**
 
-  <p><a href="https://heroku.com/deploy?template=https://github.com/debosama10/tgtlg"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
+  <p><a href="https://heroku.com/deploy?template=https://github.com/debosama10/leechbot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
   ## Deploy on VPS
 
   - Clone this repo:
   ```
-  git clone -b main https://github.com/reaitten/tgtlg tgtlg
-  cd tgtlg
+  git clone -b main https://github.com/debosama10/leechbot leechbot
+  cd leechbot
   ```
 
   - Install requirements
@@ -120,7 +238,7 @@
   Simply clone the repository and run the main file:
 
   ```
-  git clone -b 4forks https://github.com/reaitten/tgtlg
+  git clone -b 4forks https://github.com/debosama10/leechbot
   cd TorrentLeech-Gdrive
   python3 -m venv venv
   . ./venv/bin/activate
@@ -287,11 +405,10 @@ You can add a custom name as it's prefix to the file. Example: if gk.txt uploade
   ## Credits
   - [GautamKumar](https://github.com/gautamajay52/TorrentLeech-Gdrive)
   - [SpEcHiDe](https://github.com/SpEcHiDe/PublicLeech) for his wonderful code
-  - [cihanvol](https://github.com/cihanvol) for [direct_link_generator](https://github.com/reaitten/tgtlg/blob/main/tgtlg/helper_funcs/direct_link_generator.py)
+  - [cihanvol](https://github.com/cihanvol) for [direct_link_generator](https://github.com/debosama10/leechbot/blob/main/leechbot/helper_funcs/direct_link_generator.py)
   - [MaxxRider](https://github.com/MaxxRider) for tweaked version of [TorrentLeech-Gdrive](https://github.com/MaxxRider/Leech-Pro)
   - [Rclone Team](https://rclone.org) for theirs awesome tool
   - [Dan Tès](https://telegram.dog/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
   - [Robots](https://telegram.dog/Robots) for their [@UploadBot](https://telegram.dog/UploadBot)
   - [@AjeeshNair](https://telegram.dog/AjeeshNait) for his [torrent.ajee.sh](https://torrent.ajee.sh)
   - [@gotstc](https://telegram.dog/gotstc), @aryanvikash, [@HasibulKabir](https://telegram.dog/HasibulKabir) for their TORRENT groups
-
